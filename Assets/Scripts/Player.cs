@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -54,11 +55,15 @@ public class Player : MonoBehaviour
 
     public void FinishedLevel()
     {
+        PlayerPrefs.SetInt("result_Level", 0);
+        SceneManager.LoadScene("PostLevel");
         Debug.Log("level finished without being seen.");
     }
 
     public void FailedLevel()
     {
+        PlayerPrefs.SetInt("result_Level", 1);
+        SceneManager.LoadScene("PostLevel");
         Debug.Log("level failed");
     }
 
