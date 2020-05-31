@@ -16,7 +16,7 @@ public class charMovement : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && this.GetComponent<Player>().isWalkable)
         {
             
             RaycastHit hit;
@@ -27,8 +27,18 @@ public class charMovement : MonoBehaviour
                 Transform objectHit = hit.transform;
                 
                 Debug.Log(hit.transform.position);
+                this.GetComponent<Animator>().SetBool("Run 0",true);
                 navMeshAgent.SetDestination(hit.point);
             }
         }
+        if (!navMeshAgent.pathPending)
+        {
+            if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
+            {
+                //Debug.Log("Done moving");
+                this.GetComponent<Animator>().SetBool("Run 0", false);
+            }
+        }
+        
     }
 }
