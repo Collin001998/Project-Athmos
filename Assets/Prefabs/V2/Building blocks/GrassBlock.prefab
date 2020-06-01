@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8856240984563967561}
   - component: {fileID: 557521663927770239}
   - component: {fileID: 6088936603511955590}
+  - component: {fileID: 986235568725247116}
   m_Layer: 0
   m_Name: GrassBlock
   m_TagString: Untagged
@@ -80,3 +81,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &986235568725247116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529551282180068442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.020000005, z: 0.02041019}
+  m_Center: {x: 0, y: 0, z: 0.010205095}
