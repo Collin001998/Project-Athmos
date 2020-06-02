@@ -7510,7 +7510,7 @@ PrefabInstance:
     - target: {fileID: 3251735615846485704, guid: 4de030b2a70e02742b91cc90b41664af,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.449
+      value: 46.76
       objectReference: {fileID: 0}
     - target: {fileID: 3251735615846485704, guid: 4de030b2a70e02742b91cc90b41664af,
         type: 3}
@@ -7552,6 +7552,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6339590064422017016, guid: 4de030b2a70e02742b91cc90b41664af,
+        type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1998689067}
     - target: {fileID: 6509349204051546475, guid: 4de030b2a70e02742b91cc90b41664af,
         type: 3}
       propertyPath: m_Name
@@ -7611,6 +7616,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11481,6 +11487,7 @@ MonoBehaviour:
   randomOrder: 0
   plate:
   - {fileID: 391307930}
+  progress: []
 --- !u!1001 &2029687337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12216,6 +12223,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
