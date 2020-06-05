@@ -7,6 +7,7 @@ public class HubLevelGate : MonoBehaviour
 {
     public int level;
     public string prefixSceneLevel;
+    public GameObject eventSystem;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +21,12 @@ public class HubLevelGate : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<Player>())
-        {
-            MoveToScene(prefixSceneLevel,level);
-        }
+        eventSystem.GetComponent<LevelDetailUI>().ShowLevelDetails(level, 0,0);
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        eventSystem.GetComponent<LevelDetailUI>().HideLevelDetails();
     }
 
-    void MoveToScene(string prefix, int level)
-    {
-        SceneManager.LoadScene(prefix+level);
-    }
+    
 }
