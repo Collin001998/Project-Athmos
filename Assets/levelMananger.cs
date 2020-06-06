@@ -30,10 +30,12 @@ public class levelMananger : MonoBehaviour
                 levelPlate.eventSystem = eventSystem;
                 levelPlate.level = i;
             }
+            
         }
-
         NavMeshSurface navMeshSurface = this.GetComponent<NavMeshSurface>();
         navMeshSurface.BuildNavMesh();
+
+
     }
 
     // Update is called once per frame
