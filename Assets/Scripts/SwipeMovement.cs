@@ -14,6 +14,7 @@ public class SwipeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetMouseButtonDown(0))
         {
             touch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -40,5 +41,6 @@ public class SwipeMovement : MonoBehaviour
             Vector3 direction = touch - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Camera.main.transform.position += direction;
         }
+        */
     }
 }

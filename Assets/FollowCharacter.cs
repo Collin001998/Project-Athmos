@@ -17,7 +17,7 @@ public class FollowCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (avatar.GetComponent<Player>() && avatar.GetComponent<Player>().isWalkable)
+        if (avatar.GetComponent<Player>() && avatar.GetComponent<Player>().canWalk)
         {
            this.transform.position = avatar.transform.position + distance;
         }

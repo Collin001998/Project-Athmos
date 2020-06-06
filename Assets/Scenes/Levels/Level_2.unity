@@ -121,7 +121,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: b6ee5b0d3c83e5d46b2a869bd7c285a7, type: 2}
 --- !u!1001 &27007484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,6 +133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -264,6 +269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &47765523 stripped
@@ -283,6 +293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -359,6 +374,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -434,6 +454,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -508,6 +533,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfBlock5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884795595920188066, guid: 56d1b7f1e46189a48b778aee905571dc,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8471585833342849201, guid: 56d1b7f1e46189a48b778aee905571dc,
         type: 3}
@@ -658,11 +688,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137799317}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 8.72, y: -1.13, z: -3.15}
+  m_LocalPosition: {x: -6.339999, y: 11.975, z: -68.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &138043466
 PrefabInstance:
@@ -675,6 +705,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -806,6 +841,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &139991142 stripped
@@ -825,6 +865,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -956,6 +1001,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &176018081 stripped
@@ -1030,6 +1080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfsizedBlock1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
@@ -1106,6 +1161,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfBlock4
       objectReference: {fileID: 0}
+    - target: {fileID: 3849882095211338543, guid: 21e2ac48cf5aba44398813dc740b1389,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21e2ac48cf5aba44398813dc740b1389, type: 3}
 --- !u!4 &246236828 stripped
@@ -1125,6 +1185,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -1271,6 +1336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &273979935 stripped
@@ -1290,6 +1360,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -1369,6 +1444,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 324451804}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &330125602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1906678421191582247, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_Name
+      value: character v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183684523893198900, guid: a333ba094b34e76489046ba451b6a350,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a333ba094b34e76489046ba451b6a350, type: 3}
 --- !u!1001 &345644728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1380,6 +1524,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Step1Small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5947723266032470744, guid: daff4e00b91ada94c9c3d1ad437d24d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7264824157536778443, guid: daff4e00b91ada94c9c3d1ad437d24d1,
         type: 3}
@@ -1456,6 +1605,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1530,6 +1684,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -1660,6 +1819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfsizedBlock1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
@@ -1841,6 +2005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &405647225 stripped
@@ -1860,6 +2029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -2006,6 +2180,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &420895670 stripped
@@ -2038,7 +2217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465119857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.57551, y: -11.044208, z: 52.055317}
+  m_LocalPosition: {x: -0.48448944, y: 2.0607924, z: -12.854679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 625993411}
@@ -2047,7 +2226,7 @@ Transform:
   - {fileID: 1735438435}
   - {fileID: 675175214}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &486612026
 PrefabInstance:
@@ -2116,6 +2295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &486612027 stripped
@@ -2135,6 +2319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -2225,6 +2414,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -2371,6 +2565,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &536973917 stripped
@@ -2460,6 +2659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593585353086427352, guid: fdfda57249e946e4ba5306eaa46e863c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfda57249e946e4ba5306eaa46e863c, type: 3}
@@ -2551,6 +2755,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593585353086427352, guid: fdfda57249e946e4ba5306eaa46e863c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfda57249e946e4ba5306eaa46e863c, type: 3}
 --- !u!4 &571467648 stripped
@@ -2570,6 +2779,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -2701,6 +2915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &577014498 stripped
@@ -2720,6 +2939,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -2866,6 +3090,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &598458217 stripped
@@ -2975,6 +3204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -3121,6 +3355,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &665497236 stripped
@@ -3195,6 +3434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfsizedBlock1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
@@ -3346,6 +3590,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass1_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3169059659778364317, guid: da29de2ec8bbfc941adcfa27f89d055f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da29de2ec8bbfc941adcfa27f89d055f, type: 3}
 --- !u!4 &676333005 stripped
@@ -3420,6 +3669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass1_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169059659778364317, guid: da29de2ec8bbfc941adcfa27f89d055f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da29de2ec8bbfc941adcfa27f89d055f, type: 3}
@@ -3496,6 +3750,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &704889076 stripped
@@ -3515,6 +3774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -3591,6 +3855,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3666,6 +3935,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassBlock (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3740,6 +4014,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -3831,6 +4110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush1Variant1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1439566627980768253, guid: 255012bd57804764698fa4cb4855afe2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2711457111402480110, guid: 255012bd57804764698fa4cb4855afe2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3921,6 +4205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Step1Small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5947723266032470744, guid: daff4e00b91ada94c9c3d1ad437d24d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7264824157536778443, guid: daff4e00b91ada94c9c3d1ad437d24d1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3995,6 +4284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -4201,6 +4495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &901342287 stripped
@@ -4276,6 +4575,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bridge2Small
       objectReference: {fileID: 0}
+    - target: {fileID: 6988619281255604632, guid: 6900a51020e01404a9285a01b37aa29e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6900a51020e01404a9285a01b37aa29e, type: 3}
 --- !u!4 &903719349 stripped
@@ -4295,6 +4599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -4385,6 +4694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -4516,6 +4830,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &976597174 stripped
@@ -4535,6 +4854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -4696,6 +5020,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3593585353086427352, guid: fdfda57249e946e4ba5306eaa46e863c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdfda57249e946e4ba5306eaa46e863c, type: 3}
 --- !u!4 &1015491591 stripped
@@ -4715,6 +5044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: QuartersizedBlock1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 776367419588948613, guid: c754b8dccd0bf264fa241f5a2612a3cf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1367651739114341977, guid: c754b8dccd0bf264fa241f5a2612a3cf,
         type: 3}
@@ -4795,6 +5129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -4926,6 +5265,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass1_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3169059659778364317, guid: da29de2ec8bbfc941adcfa27f89d055f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da29de2ec8bbfc941adcfa27f89d055f, type: 3}
 --- !u!4 &1061624748 stripped
@@ -4945,6 +5289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -5021,6 +5370,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassBlock (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5091,10 +5445,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1981500527}
     m_Modifications:
+    - target: {fileID: 6704589511838613598, guid: 022cb801cbc796f46bd8a7c04bf367bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6907923469316343226, guid: 022cb801cbc796f46bd8a7c04bf367bb,
         type: 3}
       propertyPath: m_Name
       value: Variant1Color2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907923469316343226, guid: 022cb801cbc796f46bd8a7c04bf367bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7603912438160406441, guid: 022cb801cbc796f46bd8a7c04bf367bb,
         type: 3}
@@ -5241,6 +5605,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &1121974453 stripped
@@ -5316,6 +5685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfBlock3
       objectReference: {fileID: 0}
+    - target: {fileID: 9048780589663478016, guid: 45d1922db7afd8b47b53251400c4bdb9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45d1922db7afd8b47b53251400c4bdb9, type: 3}
 --- !u!4 &1149516322 stripped
@@ -5334,17 +5708,17 @@ PrefabInstance:
     - target: {fileID: 542018611352801995, guid: fdfda57249e946e4ba5306eaa46e863c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.445
+      value: -6.615
       objectReference: {fileID: 0}
     - target: {fileID: 542018611352801995, guid: fdfda57249e946e4ba5306eaa46e863c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.13
+      value: -2.025
       objectReference: {fileID: 0}
     - target: {fileID: 542018611352801995, guid: fdfda57249e946e4ba5306eaa46e863c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 54.558
+      value: -10.351997
       objectReference: {fileID: 0}
     - target: {fileID: 542018611352801995, guid: fdfda57249e946e4ba5306eaa46e863c,
         type: 3}
@@ -5369,7 +5743,7 @@ PrefabInstance:
     - target: {fileID: 542018611352801995, guid: fdfda57249e946e4ba5306eaa46e863c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 542018611352801995, guid: fdfda57249e946e4ba5306eaa46e863c,
         type: 3}
@@ -5475,6 +5849,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1216082212 stripped
@@ -5549,6 +5928,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfsizedBlock1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
@@ -5625,6 +6009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1228262577 stripped
@@ -5663,17 +6052,17 @@ PrefabInstance:
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.3
+      value: 5.24
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.265
+      value: -0.1600003
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 56.78
+      value: -8.129997
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
@@ -5698,7 +6087,7 @@ PrefabInstance:
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
@@ -5729,6 +6118,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.40000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912979420323001380, guid: d052eeacab92058409203f022a285c2c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912979420323001380, guid: d052eeacab92058409203f022a285c2c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912979420323001380, guid: d052eeacab92058409203f022a285c2c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.08
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d052eeacab92058409203f022a285c2c, type: 3}
@@ -5798,6 +6202,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfsizedBlock1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
@@ -5874,6 +6283,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1246507872 stripped
@@ -5949,6 +6363,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1249271659 stripped
@@ -5968,6 +6387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -6114,6 +6538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1300842052 stripped
@@ -6189,6 +6618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1301606225 stripped
@@ -6208,6 +6642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -6429,6 +6868,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1331503929 stripped
@@ -6504,6 +6948,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfBlock3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9048780589663478016, guid: 45d1922db7afd8b47b53251400c4bdb9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45d1922db7afd8b47b53251400c4bdb9, type: 3}
 --- !u!4 &1347138452 stripped
@@ -6523,6 +6972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -6598,6 +7052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -6729,6 +7188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &1391089929 stripped
@@ -6804,6 +7268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1403408549 stripped
@@ -6823,6 +7292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -6899,6 +7373,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Variant1Color1
       objectReference: {fileID: 0}
+    - target: {fileID: 1030889923886771731, guid: 6ff1740e9bb611649bee4bc7a38bcab5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4041185943814282240, guid: 6ff1740e9bb611649bee4bc7a38bcab5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6968,6 +7447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 7977129316500130720, guid: 6ff1740e9bb611649bee4bc7a38bcab5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ff1740e9bb611649bee4bc7a38bcab5, type: 3}
@@ -7044,6 +7528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1488139789 stripped
@@ -7059,10 +7548,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1981500527}
     m_Modifications:
+    - target: {fileID: 6704589511838613598, guid: 022cb801cbc796f46bd8a7c04bf367bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6907923469316343226, guid: 022cb801cbc796f46bd8a7c04bf367bb,
         type: 3}
       propertyPath: m_Name
       value: Variant1Color2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907923469316343226, guid: 022cb801cbc796f46bd8a7c04bf367bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7603912438160406441, guid: 022cb801cbc796f46bd8a7c04bf367bb,
         type: 3}
@@ -7153,6 +7652,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -7284,6 +7788,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1546076265 stripped
@@ -7358,6 +7867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass1_2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169059659778364317, guid: da29de2ec8bbfc941adcfa27f89d055f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da29de2ec8bbfc941adcfa27f89d055f, type: 3}
@@ -7434,6 +7948,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1549644859 stripped
@@ -7453,6 +7972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -7584,6 +8108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1604674592 stripped
@@ -7602,17 +8131,17 @@ PrefabInstance:
     - target: {fileID: 3251735615846485704, guid: 4de030b2a70e02742b91cc90b41664af,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.99
+      value: -5.0699997
       objectReference: {fileID: 0}
     - target: {fileID: 3251735615846485704, guid: 4de030b2a70e02742b91cc90b41664af,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.52
+      value: -1.4150004
       objectReference: {fileID: 0}
     - target: {fileID: 3251735615846485704, guid: 4de030b2a70e02742b91cc90b41664af,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 56.05
+      value: -8.859997
       objectReference: {fileID: 0}
     - target: {fileID: 3251735615846485704, guid: 4de030b2a70e02742b91cc90b41664af,
         type: 3}
@@ -7728,6 +8257,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass1_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3169059659778364317, guid: da29de2ec8bbfc941adcfa27f89d055f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da29de2ec8bbfc941adcfa27f89d055f, type: 3}
 --- !u!4 &1653817429 stripped
@@ -7802,6 +8336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass1_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169059659778364317, guid: da29de2ec8bbfc941adcfa27f89d055f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da29de2ec8bbfc941adcfa27f89d055f, type: 3}
@@ -7878,6 +8417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1663090259 stripped
@@ -7952,6 +8496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfsizedBlock1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
@@ -8103,6 +8652,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1738415485 stripped
@@ -8122,6 +8676,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -8242,11 +8801,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757356689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.216608, y: -20.748638, z: 20.847073}
+  m_LocalPosition: {x: -11.843391, y: -7.643638, z: -44.062927}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1777057300
 PrefabInstance:
@@ -8315,6 +8874,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1777057301 stripped
@@ -8334,6 +8898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfBlock6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191207028931200999, guid: f45a79278f5178c44a0cba3723624d11,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7183465866649826804, guid: f45a79278f5178c44a0cba3723624d11,
         type: 3}
@@ -8465,6 +9034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &1785743581 stripped
@@ -8493,17 +9067,17 @@ PrefabInstance:
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.32
+      value: 6.26
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.265
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47.01
+      value: -17.9
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
@@ -8528,7 +9102,7 @@ PrefabInstance:
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7898029463606477680, guid: d052eeacab92058409203f022a285c2c,
         type: 3}
@@ -8629,6 +9203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1808519280 stripped
@@ -8703,6 +9282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfsizedBlock1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
@@ -8779,6 +9363,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass1_2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3169059659778364317, guid: da29de2ec8bbfc941adcfa27f89d055f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da29de2ec8bbfc941adcfa27f89d055f, type: 3}
 --- !u!4 &1839550750 stripped
@@ -8798,6 +9387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -8873,6 +9467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -9004,6 +9603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1902300920 stripped
@@ -9079,6 +9683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfBlock3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9048780589663478016, guid: 45d1922db7afd8b47b53251400c4bdb9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45d1922db7afd8b47b53251400c4bdb9, type: 3}
 --- !u!4 &1916131361 stripped
@@ -9098,6 +9707,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -9229,6 +9843,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &1936913083 stripped
@@ -9248,6 +9867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -9394,6 +10018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &1976454770 stripped
@@ -9413,6 +10042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfBlock6 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191207028931200999, guid: f45a79278f5178c44a0cba3723624d11,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7183465866649826804, guid: f45a79278f5178c44a0cba3723624d11,
         type: 3}
@@ -9501,7 +10135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981500526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.57551, y: -11.044208, z: 52.055317}
+  m_LocalPosition: {x: -0.48448944, y: 2.0607924, z: -12.854679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 345644729}
@@ -9621,7 +10255,7 @@ Transform:
   - {fileID: 1839550750}
   - {fileID: 271754050}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1991125346
 GameObject:
@@ -9737,7 +10371,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 14.23
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9761,11 +10395,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991125346}
   m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: 3.9, y: -6, z: 49.7}
+  m_LocalPosition: {x: -11.75, y: 9.8, z: -12.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
 --- !u!1001 &2027080713
 PrefabInstance:
@@ -9778,6 +10412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush3Variant1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449286514943209318, guid: 18995ef498e7b674fbf0d014a5a11a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8060086752783555957, guid: 18995ef498e7b674fbf0d014a5a11a73,
         type: 3}
@@ -9924,6 +10563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &2033095493 stripped
@@ -9943,6 +10587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -10019,6 +10668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10093,6 +10747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush1Variant1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439566627980768253, guid: 255012bd57804764698fa4cb4855afe2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2711457111402480110, guid: 255012bd57804764698fa4cb4855afe2,
         type: 3}
@@ -10239,6 +10898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HalfsizedBlock1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8528790338089846410, guid: 4ad668b6134d3f74889acc28d640cfc8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ad668b6134d3f74889acc28d640cfc8, type: 3}
 --- !u!4 &2066136508 stripped
@@ -10258,6 +10922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5529551282180068442, guid: 1851d52c5b756fc4e9920c91d70f70f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8856240984563967561, guid: 1851d52c5b756fc4e9920c91d70f70f2,
         type: 3}
@@ -10388,6 +11057,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HalfBlock3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9048780589663478016, guid: 45d1922db7afd8b47b53251400c4bdb9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45d1922db7afd8b47b53251400c4bdb9, type: 3}

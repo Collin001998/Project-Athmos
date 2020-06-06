@@ -1027,6 +1027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d102904bf03f604ca2902dbb2c079b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleTap: {fileID: 2968707297731774858, guid: ce35fe3268d2fb94c848bebbdaea3fd1,
+    type: 3}
 --- !u!114 &2429131722644752217
 MonoBehaviour:
   m_ObjectHideFlags: 0

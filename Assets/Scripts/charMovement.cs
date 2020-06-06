@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class charMovement : MonoBehaviour
 {
     NavMeshAgent navMeshAgent;
+    public GameObject particleTap;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class charMovement : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetMouseButtonDown(0) && this.GetComponent<Player>().isWalkable)
+        if (Input.GetMouseButtonDown(0) && this.GetComponent<Player>().canWalk)
         {
             
             RaycastHit hit;
@@ -28,6 +29,12 @@ public class charMovement : MonoBehaviour
                 
                 Debug.Log(hit.transform.position);
                 this.GetComponent<Animator>().SetBool("Run 0",true);
+
+                Vector3 spawnTap = new Vector3(hit.point.x, hit.point.y + 0.02f, hit.point.z);
+                GameObject particle  = Instantiate(particleTap, spawnTap, particleTap.transform.rotation);
+                particle.GetComponent<ParticleSystem>().Emit(2);
+                float totalDuration = particle.GetComponent<ParticleSystem>().duration + particle.GetComponent<ParticleSystem>().startLifetime;
+                Destroy(particle, totalDuration);
                 navMeshAgent.SetDestination(hit.point);
             }
         }

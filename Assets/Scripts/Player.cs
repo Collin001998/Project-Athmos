@@ -8,15 +8,13 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     private bool hidden;
     private bool isCaught;
-    private bool canWalk;
+    public bool canWalk = true;
 
     public bool isHidden => hidden;
-    public bool isWalkable => canWalk;
     void Start()
     {
         hidden = false;
         isCaught = false;
-        canWalk = true;
     }
 
     // Update is called once per frame
@@ -55,14 +53,6 @@ public class Player : MonoBehaviour
         //unhide
         this.hidden = false;
     }
-
-    public void SetPlayerWalkable(bool active)
-    {
-            Debug.Log("player walkable " + active);
-            canWalk = active;
-    }
-
-
 
     public void FinishedLevel()
     {

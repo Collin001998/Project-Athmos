@@ -11,7 +11,7 @@ public class TransitionToPortal : MonoBehaviour
     public GameObject focusObject;
     void Start()
     {
-        StartCoroutine("Transition");
+        StartCoroutine(Transition());
     }
 
     // Update is called once per frame
@@ -24,16 +24,16 @@ public class TransitionToPortal : MonoBehaviour
     {
         if (avatar.GetComponent<Player>())
         {
-            avatar.GetComponent<Player>().SetPlayerWalkable(false);
+            avatar.GetComponent<Player>().canWalk = false;
         }
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSecondsRealtime(1);
         MoveToPortal(portal, focusObject);
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSecondsRealtime(5);
         MoveToAvatar(avatar, focusObject);
 
         if(avatar.GetComponent<Player>())
         {
-            avatar.GetComponent<Player>().SetPlayerWalkable(true);
+            avatar.GetComponent<Player>().canWalk = true;
         }
     }
 
