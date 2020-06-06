@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4613656862657082521}
   - component: {fileID: 4421416390116298415}
   - component: {fileID: 7953514913856696918}
+  - component: {fileID: 5252443258713293868}
   m_Layer: 0
   m_Name: HalfsizedBlock1
   m_TagString: Untagged
@@ -80,3 +81,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5252443258713293868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8528790338089846410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.010000005, z: 0.02041019}
+  m_Center: {x: -4.656613e-10, y: 0.005000001, z: 0.010205095}
