@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 2429131722644752217}
   - component: {fileID: 2429131722644752216}
   m_Layer: 0
-  m_Name: Char animated Fixv2
+  m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,6 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b5b27816f4daf044846c81a8a1fd808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canWalk: 1
 --- !u!195 &2429131722644752216
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1062,7 +1063,7 @@ NavMeshAgent:
   m_Height: 1.33
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 1
 --- !u!1 &6155885280804616348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1075,7 @@ GameObject:
   - component: {fileID: 6230056584171494045}
   - component: {fileID: 1797343889500114315}
   m_Layer: 0
-  m_Name: Cylinder.009
+  m_Name: AvatarMesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
