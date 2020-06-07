@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     private bool isCaught;
     public bool canWalk = true;
 
+    public GameObject eventSystem;
+
     public bool isHidden => hidden;
     void Start()
     {
@@ -56,15 +58,16 @@ public class Player : MonoBehaviour
 
     public void FinishedLevel()
     {
+        eventSystem.GetComponent<Postlevel>().showPostLevelUI = true;
         PlayerPrefs.SetInt("result_Level", 0);
-        SceneManager.LoadScene("PostLevel");
+
         Debug.Log("level finished without being seen.");
     }
 
     public void FailedLevel()
     {
+        eventSystem.GetComponent<Postlevel>().showPostLevelUI = true;
         PlayerPrefs.SetInt("result_Level", 1);
-        SceneManager.LoadScene("PostLevel");
         Debug.Log("level failed");
     }
 

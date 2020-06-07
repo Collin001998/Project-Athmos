@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2902295101579027732}
   m_Layer: 0
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: Plate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5570,6 +5570,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973817730376123 stripped
@@ -5814,6 +5819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -6060,6 +6070,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973818395233189 stripped
@@ -6134,6 +6149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -6370,6 +6390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973818244018703 stripped
@@ -6444,6 +6469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -6520,6 +6550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973818221674590 stripped
@@ -6595,6 +6630,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973818225651727 stripped
@@ -6669,6 +6709,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -6915,6 +6960,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973818490430210 stripped
@@ -7074,6 +7124,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -7405,6 +7460,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973818831114203 stripped
@@ -7559,6 +7619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -7720,6 +7785,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973818713697129 stripped
@@ -7879,6 +7949,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -8040,6 +8115,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoneBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
 --- !u!4 &3477973819183213181 stripped
@@ -8199,6 +8279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}
@@ -8704,6 +8789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StoneBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 3339525908931900550, guid: 8e72bea690ab08141a9557cff2ae2ba2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e72bea690ab08141a9557cff2ae2ba2, type: 3}

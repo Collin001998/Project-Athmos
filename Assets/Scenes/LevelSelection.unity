@@ -419,8 +419,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10336d9e9b254094c878bc5a2c1f0928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amountLevels: 2
-  levelIslandPrefab: {fileID: 3189340528200240978, guid: 49ee0c87acb158b48aa9c6eb5646e95d,
+  amountLevels: 6
+  levelIslandPrefabs:
+  - {fileID: 5992863946227738068, guid: f0177a032d99f8d40838e937916cb8bb, type: 3}
+  - {fileID: 7093641342329127181, guid: d334d5fc9fb410944a7e6a2e37092e32, type: 3}
+  - {fileID: 7195758331297536472, guid: d84b7a1bc102d9942946dfaeea68668a, type: 3}
+  - {fileID: 4872179400683094009, guid: 5b393ef149356ed4cb8ee7a9a1369295, type: 3}
+  - {fileID: 2452318185598826122, guid: 85b6fc40f8c86dc42bae99b66caf0111, type: 3}
+  - {fileID: 1564065446144991028, guid: 329301a8431113f4abe55fa634bb9637, type: 3}
+  - {fileID: 5325068414016680406, guid: 8c9750741365b0546844a632f895d2fb, type: 3}
+  - {fileID: 2902295102280001637, guid: 0a6cdd3c1fff61e469c9b34b4f3777fe, type: 3}
+  - {fileID: 2341389039562502971, guid: 73d3f3cb7acad90448de3c6631cf7df4, type: 3}
+  - {fileID: 2765347192223151393, guid: e6e08c41358068e40838cea9278830eb, type: 3}
+  comingSoon: {fileID: 8697080920284626390, guid: 31b165ca6ac6ca9488b9db6f563825e1,
     type: 3}
   startPoint: {fileID: 244802653}
   eventSystem: {fileID: 1253906406}
@@ -671,8 +682,8 @@ Camera:
     y: 0
     width: 16
     height: 9
-  near clip plane: 0
-  far clip plane: 30
+  near clip plane: -20
+  far clip plane: 40
   field of view: 60
   orthographic: 1
   orthographic size: 10

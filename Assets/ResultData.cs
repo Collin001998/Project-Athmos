@@ -12,13 +12,17 @@ public class ResultData : MonoBehaviour
     public Image star3;
     void Start()
     {
+        
+    }
+    private void OnEnable()
+    {
         int result = PlayerPrefs.GetInt("result_Level");
-        if(result == 0)
+        if (result == 0)
         {
             headerText.text = "YOU CLEARED IT";
         }
 
-        if(result == 1)
+        if (result == 1)
         {
             headerText.text = "YOU GOT CAUGHT";
             star1.color = Color.grey;
@@ -26,7 +30,6 @@ public class ResultData : MonoBehaviour
             star3.color = Color.grey;
         }
     }
-
     // Update is called once per frame
     void Update()
     {
