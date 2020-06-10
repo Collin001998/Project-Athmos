@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+Authored by Collin Bradley Nieuw Beerta
+Copyright 2020
+Scripted updated: 10/06/2020
+*/
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +20,7 @@ public class levelMananger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        UnityEngine.Random.InitState(CharSeed("Flexing"));
         GameObject lastIsland = null;
         for(int i=1; i <= amountLevels;)
         {
@@ -94,8 +100,21 @@ public class levelMananger : MonoBehaviour
     GameObject GetRandomIsland()
     {
         GameObject island = levelIslandPrefabs[0];
+
+        
         int random = UnityEngine.Random.Range(0,levelIslandPrefabs.Count -1);
         island = levelIslandPrefabs[random];
         return island;
+    }
+
+    public int CharSeed(string s)
+    {
+        int final = 0;
+        foreach (char c in s)
+        {
+            final += char.ToUpper(c) - 64;
+
+        }
+        return final;
     }
 }

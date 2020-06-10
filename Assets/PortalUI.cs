@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+Authored by Collin Bradley Nieuw Beerta
+Copyright 2020
+Scripted updated: 10/06/2020
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,10 +19,10 @@ public class PortalUI : MonoBehaviour
     public GameObject platesCanvas;
     public GameObject platesUI;
 
-    
+    public bool isVisable;
     void Start()
     {
-        
+        isVisable = true;
     }
     private void Awake()
     {
@@ -33,7 +38,7 @@ public class PortalUI : MonoBehaviour
             } 
             else if (this.GetComponentInParent<Portal>().plate.Count == 3)
             {
-                panelBackground.GetComponent<Image>().sprite = background2;
+                panelBackground.GetComponent<Image>().sprite = background3;
             }
 
             foreach(GameObject pla in this.GetComponentInParent<Portal>().plate)
@@ -47,6 +52,13 @@ public class PortalUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!isVisable)
+        {
+            this.GetComponent<Canvas>().enabled = false;
+        }
+        else
+        {
+            this.GetComponent<Canvas>().enabled = true;
+        }
     }
 }

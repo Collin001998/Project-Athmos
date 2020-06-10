@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+Authored by Collin Bradley Nieuw Beerta
+Copyright 2020
+Scripted updated: 10/06/2020
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +11,7 @@ using UnityEngine.UI;
 
 public class LevelDetailUI : MonoBehaviour
 {
+    public GameObject levelLoader;
     public GameObject levelDetailCanvas;
     public Text levelText;
     public Text levelPoints;
@@ -17,6 +23,8 @@ public class LevelDetailUI : MonoBehaviour
     public Button playButton;
     public Button backButton;
     public Button forwardButton;
+
+    public Text currencyText;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,17 +34,20 @@ public class LevelDetailUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        currencyText.text = GameObject.Find("Character").GetComponent<Player>().totalCurrency.ToString();
     }
 
-    public void ShowLevelDetails(int level, int points, int stars)
+    public void ShowLevelDetails(int level, int points, int stars,HubLevelGate.State state)
     {
         levelText.text = "Level " + level;
         levelPoints.text = points.ToString();
         levelDetailCanvas.SetActive(true);
-        playButton.interactable = true;
-        playButton.onClick.AddListener(delegate { MoveScene(level); });
-
+        if(state == HubLevelGate.State.Unlocked)
+        {
+            playButton.interactable = true;
+            playButton.onClick.AddListener(delegate { MoveScene(level); });
+        }
+        
         if(stars == 0)
         {
             star1.color = new Color(89, 89, 89); //E2E2E2
@@ -63,7 +74,8 @@ public class LevelDetailUI : MonoBehaviour
     }
     void MoveScene(int level)
     {
-        SceneManager.LoadScene("level_" + level);
+        StartCoroutine(levelLoader.GetComponent<LevelLoader>().LoadLevel("level_" + level));
+        //SceneManager.LoadScene("level_" + level);
     }
     public void HideLevelDetails()
     {

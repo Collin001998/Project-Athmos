@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+Authored by Collin Bradley Nieuw Beerta
+Copyright 2020
+Scripted updated: 10/06/2020
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,15 +11,24 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
+    public PlayerData playerData;
+    public int achievedLevel;
+    public int totalCurrency;
+
     private bool hidden;
     private bool isCaught;
     public bool canWalk = true;
 
     public GameObject eventSystem;
 
+
     public bool isHidden => hidden;
     void Start()
     {
+        playerData = SaveSystem.LoadSaveFile();
+        //Debug.Log("Done level "+ playerData.levels[0].levelNumber + " with amount of points " + playerData.levels[0].scoredPoints);
+        achievedLevel = playerData.achievedLevel;
+        totalCurrency = playerData.totalCurrency;
         hidden = false;
         isCaught = false;
     }
@@ -59,9 +73,17 @@ public class Player : MonoBehaviour
     public void FinishedLevel()
     {
         eventSystem.GetComponent<Postlevel>().showPostLevelUI = true;
+        Portal portal = GameObject.Find("Portal End").GetComponent<Portal>();
+        achievedLevel = portal.currentLevel;
         PlayerPrefs.SetInt("result_Level", 0);
 
-        Debug.Log("level finished without being seen.");
+        //get savedata
+        List<LevelData> levels = this.playerData.levels;
+        levels.Add(new LevelData(portal));
+
+        totalCurrency += portal.scoredPoints;
+
+        SaveSystem.SaveGame(this,levels);
     }
 
     public void FailedLevel()
